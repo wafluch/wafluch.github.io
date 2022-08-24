@@ -1,0 +1,44 @@
+body {
+    background-color: #121212;
+}
+#chat {
+    float: right;
+    border: 0;
+    width: 350px;
+    height: 98vh;
+}
+#camera {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 250px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 1px solid purple;
+    resize: both;
+    
+}
+#camera:hover {
+    cursor: pointer;
+    border-width: 5px;
+}
+#film {
+    width: calc(100vw - 400px);
+    height: 98vh;
+    float: left;
+    border: 1px solid #121212;
+}
+#movecontrol {
+    padding: 1px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196f3;
+    color: #fff;
+}
+.kamerka {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: red;
+}
